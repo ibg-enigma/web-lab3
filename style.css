@@ -116,3 +116,64 @@ a {
   letter-spacing: 0.05em;
   font-size: 17px;
 }
+
+/* 
+  Новые стили
+*/
+
+/* Стили для хедера - начало */
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Стили для хедера - все */
+
+/* Стили для счетчиков - начало */
+
+.box-container {
+  margin: -50px 50px 50px 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.box-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Стили для счетчиков - все */
+
+/* Стили для карточек - начало */
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card-item {
+  margin: 0 25px 50px 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-item-text {
+  text-align: center;
+}
+
+/* Стили для карточек - все */
+
+/* Стили для футера - начало */
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* стили для футера - все */
