@@ -130,6 +130,14 @@ a {
   align-items: center;
 }
 
+.header > *{
+  margin: 20px 0;
+}
+
+.subheader-text {
+  margin: 50px 0px;
+}
+
 /* Стили для хедера - все */
 
 /* Стили для счетчиков - начало */
@@ -165,6 +173,10 @@ a {
 
 .card-item-text {
   text-align: center;
+  vertical-align: middle;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 /* Стили для карточек - все */
